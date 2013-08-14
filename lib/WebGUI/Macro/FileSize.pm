@@ -1,20 +1,9 @@
-package WebGUI::Macro::FileSize; # edit this line to match your own macro name
-
-#-------------------------------------------------------------------
-# WebGUI is Copyright 2001-2009 Plain Black Corporation.
-#-------------------------------------------------------------------
-# Please read the legal notices (docs/legal.txt) and the license
-# (docs/license.txt) that came with this distribution before using
-# this software.
-#-------------------------------------------------------------------
-# http://www.plainblack.com                     info@plainblack.com
-#-------------------------------------------------------------------
+package WebGUI::Macro::FileSize;
 
 use strict;
 use WebGUI::Asset;
 use WebGUI::Storage;
 use 5.010;
-use Data::Dumper;
 
 =head1 NAME
 
